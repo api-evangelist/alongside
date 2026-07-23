@@ -1,7 +1,25 @@
 aid: alongside
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alongside.png
 name: Alongside
-description: Alongside is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alongside is an a16z-backed crypto company (alongside.xyz) founded in 2022. It originally launched
+  the Alongside Crypto Market Index (AMKT), the first on-chain broad crypto market index token with a
+  0% annual fee, backed by Andreessen Horowitz, Coinbase Ventures, and Franklin Templeton. The company
+  has since pivoted to AI-native compliance automation for scaling crypto firms, unifying fragmented
+  KYC/AML/KYT tooling into a single system and reducing manual analyst burden for autonomous financial
+  agents. As of this enrichment pass Alongside publishes no public API, developer portal, SDKs, MCP
+  server, or developer documentation; this profile captures its identity and probed domain security only.
 url: https://raw.githubusercontent.com/api-evangelist/alongside/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,26 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Crypto
+- Compliance
+- KYC
+- AML
+- Financial Services
+- AI Agents
+- Index Fund
+common:
+- type: DomainSecurity
+  url: security/alongside-domain-security.yml
+- type: Website
+  url: https://www.alongside.xyz/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
