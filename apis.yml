@@ -47,7 +47,7 @@ tags:
 - Compliance
 - KYC
 - AML
-- Financial-Services
+- Financial Services
 - AI Agents
 - Index Fund
 tags_raw:
@@ -59,6 +59,7 @@ tags_raw:
 - Financial Services
 - AI Agents
 - Index Fund
+- Financial-Services
 common:
 - type: DomainSecurity
   url: security/alongside-domain-security.yml
