@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "alongside",
+    "captured_at": "2026-10-11T141345",
+    "source_url": "https://alongside.xyz",
+    "source_type": "root-domain",
+    "file": "alongside-2026-10-11T141345.png",
+    "bytes": 23274,
+    "capture": "playwright-local"
+  }
+]
